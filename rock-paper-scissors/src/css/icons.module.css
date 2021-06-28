@@ -1,0 +1,41 @@
+.icons {
+  width: 8rem;
+  /* height: 8rem; */
+}
+.bkg {
+  width: 8rem;
+  height: 8rem;
+
+  border-radius: 1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  box-sizing: border-box;
+  background-color: white;
+}
+.blue {
+  /* background-color: rgb(100, 143, 179); */
+  border: 2px solid steelblue;
+  /* box-shadow: 0.4rem 0.4rem 0rem 0.1rem rgb(52, 114, 165); */
+  transition: 0.5s;
+}
+.red {
+  /* flex-shrink: 0; */
+  /* background-color: rgb(252, 107, 107);
+  box-shadow: 0.4rem 0.4rem 0rem 0.1rem red; */
+  border: 2px solid rgb(252, 107, 107);
+  transition: 0.5s;
+}
+.green {
+  /* background-color: rgb(1, 204, 1);
+  box-shadow: 0.4rem 0.4rem 0rem 0.1rem rgb(1, 190, 1); */
+  border: 2px solid rgb(1, 204, 1);
+  transition: 0.5s;
+}
+.blue:hover,
+.red:hover,
+.green:hover {
+  transition: 0.5s;
+  /* background-color: rgb(68, 131, 184); */
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+}

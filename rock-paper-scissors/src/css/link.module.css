@@ -1,0 +1,77 @@
+.opt {
+  display: flex;
+  width: 15rem;
+  justify-content: space-between;
+  padding: 0.2rem;
+  border: 1px white solid;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+.opt > div {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  width: 80%;
+}
+.opt > button {
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: none;
+  width: 20%;
+  transition: 0.3s;
+}
+header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.bdy {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.opt > button:hover {
+  transition: 0.3s;
+  background-color: rgb(220, 220, 220);
+}
+.img {
+  /* background-size: 1rem 1rem; */
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 1rem;
+}
+.btn {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: white;
+
+  background-color: green;
+
+  border-radius: 0.5rem;
+  transition: 0.5s;
+}
+.btn:hover {
+  transition: 0.5s;
+  background-color: rgb(2, 185, 2);
+}
+.animateStops::after {
+  animation: load infinite 1.5s;
+  content: "";
+}
+@keyframes load {
+  0% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  100% {
+    content: "...";
+  }
+}

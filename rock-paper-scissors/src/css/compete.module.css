@@ -1,0 +1,55 @@
+.me {
+  width: 50%;
+  transform-origin: top;
+
+  background-color: rgb(155, 255, 155);
+  height: 100vh;
+
+  border-right: 1rem solid black;
+}
+.opp {
+  width: 50%;
+  transform-origin: left;
+
+  background-color: rgb(255, 151, 151);
+  height: 100vh;
+}
+.vs,
+.win > div {
+  position: absolute;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* width: 5rem; */
+  left: calc((100% - 6rem) / 2);
+  /* height: 5rem; */
+  top: calc((100% - 4rem) / 2);
+  background-color: grey;
+  color: white;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 20rem;
+  left: calc((100% - 24rem) / 2);
+  top: calc(((100% - 4rem) / 2));
+}
+.loading {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  border: 0.3rem solid white;
+  border-left: 0.3rem solid rgb(255, 151, 151);
+  animation: load infinite 1s;
+}
+/* .win > div {
+
+} */
+@keyframes load {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

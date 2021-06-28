@@ -1,0 +1,29 @@
+.card {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 0.5rem;
+  color: grey;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+.fade {
+  animation: fade 5s;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

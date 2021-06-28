@@ -1,0 +1,59 @@
+.style {
+  border: 2px solid white;
+  padding: 0.2rem;
+  display: flex;
+  width: 50rem;
+  border-radius: 0.5rem;
+}
+.title {
+  width: 85%;
+  font-size: 2.5rem;
+  padding: 1rem;
+  line-height: 1.8rem;
+  color: white;
+}
+.info {
+  background-color: white;
+  width: 15%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  color: black;
+}
+@media (max-width: 880px) {
+  .style {
+    width: 40rem;
+  }
+  .title {
+    width: 80%;
+  }
+  .info {
+    width: 20%;
+  }
+}
+@media (max-width: 695px) {
+  .style {
+    width: 30rem;
+  }
+  .title {
+    width: 70%;
+  }
+  .info {
+    width: 30%;
+  }
+}
+@media (max-width: 575px) {
+  .style {
+    margin: 1rem;
+    box-sizing: border-box;
+    width: 90%;
+  }
+  .title {
+    width: 65%;
+  }
+  .info {
+    width: 35%;
+  }
+}
